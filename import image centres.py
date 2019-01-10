@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from reference_OMR import reference_image
 from student_OMR import student_image
 
-image1=cv2.imread(r"D:\project\OMR\aligned.jpg")
-image2=cv2.imread(r"D:\project\OMR\images\new omr\new2.png")
+image1=cv2.imread(r"omr images\new1.png")
+image2=cv2.imread(r"omr images\new2.png")
 
 r_data=reference_image(image1)
 s_data=student_image(image2)
